@@ -14,9 +14,9 @@ function Login() {
           <div className="senha-form">
             <label className="password">Senha</label>
             <input type="password" className="senha" />
-          </div>
+          </div>  
           <div className="buttons">
-            <Link className="login" to="/home">Login</Link>
+            <Link type="submit" className="login" to="/home">Login</Link>
             <Link className="cadast" to="/cadastro">Cadastre-se</Link>
           </div>
         </form>
