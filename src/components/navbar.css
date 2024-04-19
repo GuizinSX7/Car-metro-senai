@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-.login-text,
-.home-text,
-.cadast-text{
-    text-decoration: none;
-    padding: 10px;
+.logo-senai{
+    width: 150px;
 }
+

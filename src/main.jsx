@@ -7,7 +7,6 @@ import Header from "./components/Navbar";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <Header />
     <MainRoute />
   </BrowserRouter>
 );

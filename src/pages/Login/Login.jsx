@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 import "./Login.css";
 
 function Login() {
@@ -16,8 +16,8 @@ function Login() {
             <input type="password" className="senha" />
           </div>  
           <div className="buttons">
-            <Link type="submit" className="login" to="/home">Login</Link>
-            <Link className="cadast" to="/cadastro">Cadastre-se</Link>
+            <Button type="submit" id="login-button" href="/home" className="login">Login</Button>
+            <Button id="cadastro-button" href="/cadastro" className="cadastro">Cadastre-se</Button>
           </div>
         </form>
       </div>
