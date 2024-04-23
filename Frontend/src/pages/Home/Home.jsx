@@ -37,7 +37,7 @@ function Home() {
                 Terceiro ano do curso técnico de Desenvolvimento de Sistemas.
                 Para saber mais dessa turma clique no botão abaixo.
               </Card.Text>
-              <Button href="" variant="btn btn-dark">Visitar Turma</Button>
+              <Button href="/idev1" variant="btn btn-dark">Visitar Turma</Button>
             </Card.Body>
           </Card>
 
@@ -61,7 +61,7 @@ function Home() {
                 Primeiro ano do curso técnico de Desenvolvimento de Sistemas.
                 Para saber mais dessa turma clique no botão abaixo.
               </Card.Text>
-              <Button variant="btn btn-dark">Visitar Turma</Button>
+              <Button href="/idev3" variant="btn btn-dark">Visitar Turma</Button>
             </Card.Body>
           </Card>
         </div>
@@ -83,7 +83,7 @@ function Home() {
                 Terceiro ano do curso técnico de EletroEletrônica e Mecânica.
                 Para saber mais dessa turma clique no botão abaixo.
               </Card.Text>
-              <Button variant="btn btn-dark">Visitar Turma</Button>
+              <Button href="/elec1" variant="btn btn-dark">Visitar Turma</Button>
             </Card.Body>
           </Card>
 
@@ -95,7 +95,7 @@ function Home() {
                 Segundo ano do curso técnico de EletroEletrônica e Mecânica.
                 Para saber mais dessa turma clique no botão abaixo.
               </Card.Text>
-              <Button variant="btn btn-dark">Visitar Turma</Button>
+              <Button href="/elec2" variant="btn btn-dark">Visitar Turma</Button>
             </Card.Body>
           </Card>
 
@@ -107,7 +107,7 @@ function Home() {
                 Primeiro ano do curso técnico de EletroEletrônica e Mecânica.
                 Para saber mais dessa turma clique no botão abaixo.
               </Card.Text>
-              <Button variant="btn btn-dark">Visitar Turma</Button>
+              <Button href="/elec3" variant="btn btn-dark">Visitar Turma</Button>
             </Card.Body>
           </Card>
         </div>

@@ -11,7 +11,6 @@ function Header() {
     <div className="header-nav">
       <Navbar id="header-nav-header" expand="lg" className="bg-body-tertiary">
         <img className="logo-senai" src={Logos}/>
-        <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -20,7 +19,6 @@ function Header() {
               <Nav.Link href="/cadastro">Cadastro</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
     </div>
   );

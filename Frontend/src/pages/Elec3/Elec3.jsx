@@ -1,17 +1,17 @@
 import React from "react";
-import "./Idev2.css"
+import "./Elec3.css"
 
 import Usuario from "../img/usuario.jpeg"
 
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-function Idev2() {
+function Elec3() {
   return (
     <>
       <div class="perfil_flex">
-        <h4 id="titulo_design_idev2">
-          <strong>Turma IDEV2</strong>
+        <h4 id="titulo_design_elec3">
+          <strong>Turma IELE-IMEC3</strong>
         </h4>
       </div>
 
@@ -328,4 +328,4 @@ function Idev2() {
   );
 }
 
-export default Idev2;
+export default Elec3;
