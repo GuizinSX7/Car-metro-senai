@@ -13,9 +13,18 @@
   background-color: #454d6b;
 }
 
-.cadast-container {
+.cadast-container1 {
   width: 30%;
   height: 650px;
+  padding: 50px;
+  background-color: #353b50;
+  margin-right: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cadast-container2 {
+  width: 30%;
+  height: 550px;
   padding: 50px;
   background-color: #353b50;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -31,8 +40,8 @@
 .cadast-name {
   border-bottom: 1px solid white;
   display: inline-block;
-  margin-bottom: 70px;
-  font-size: 40px;
+  margin-bottom: 50px;
+  font-size: 30px;
   color: white;
 }
 
@@ -46,7 +55,14 @@
 .nome-form,
 .email-form,
 .senha-form-cadast,
-.confirm-senha-form-cadast {
+.confirm-senha-form-cadast,
+.celular-form-cadast,
+.rua-form-cadast,
+.bairro-form-cadast,
+.cidade-form-cadast,
+.cep-form-cadast,
+.estado-form-cadast,
+.cpf-form-cadast {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -55,7 +71,14 @@
 .nome-cadast-input,
 .email-cadast,
 .senha-cadast-input,
-.confirm-senha-input {
+.confirm-senha-input,
+.estado-cadast-input,
+.cep-cadast-input,
+.cidade-cadast-input,
+.bairro-cadast-input,
+.rua-cadast-input,
+.celular-cadast-input,
+.cpf-cadast-input {
   border: none;
   border-bottom: 1px solid white;
   background-color: transparent;
@@ -66,16 +89,29 @@
 
 .nome-form,
 .email-form,
-.senha-form-cadast {
-  margin-bottom: 30px;
+.senha-form-cadast,
+.cpf-form-cadast,
+.celular-form-cadast,
+.rua-form-cadast,
+.cidade-form-cadast,
+.cep-form-cadast,
+.estado-form-cadast {
+  margin-bottom: 20px;
 }
 
 .nome-cadast-label,
 .email,
 .senha-cadast,
-.confirm-senha-label {
+.confirm-senha-label,
+.cpf-cadast,
+.celular-cadast,
+.rua-cadast,
+.bairro-cadast,
+.cidade-cadast,
+.cep-cadast,
+.estado-cadast {
   color: white;
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 12px;
 }
 
@@ -89,17 +125,6 @@
 
 .login-button {
   margin-left: 15px;
-}
-
-.login-button,
-.cadast-button {
-  padding: 10px 20px;
-  background-color: #a13854;
-  color: #fff;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 #cadast-button {
@@ -121,4 +146,60 @@
 
 #cadastro-button-cadast:hover {
   background-color: #a83856ad;
+}
+
+@media (max-width: 940px) {
+  .cadast-name{
+    font-size: 25px;
+  }
+  .nome-cadast-input,
+  .email-cadast,
+  .senha-cadast-input,
+  .confirm-senha-input,
+  .estado-cadast-input,
+  .cep-cadast-input,
+  .cidade-cadast-input,
+  .bairro-cadast-input,
+  .rua-cadast-input,
+  .celular-cadast-input,
+  .cpf-cadast-input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+    color: white;
+  }
+  .cadast-container1 {
+    width: 30%;
+    height: 600px;
+    padding: 50px;
+  }
+
+  .cadast-container2 {
+    width: 30%;
+    height: 490px;
+  }
+  #cadastro-button-cadast {
+    width: 60px;
+    font-size: 12px;
+  }
+  #cadast-button {
+    font-size: 12px;
+    width: 80px;
+  }
+  .nome-cadast-label,
+  .email,
+  .senha-cadast,
+  .confirm-senha-label,
+  .cpf-cadast,
+  .celular-cadast,
+  .rua-cadast,
+  .bairro-cadast,
+  .cidade-cadast,
+  .cep-cadast,
+  .estado-cadast {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
 }

@@ -51,6 +51,7 @@
   background-color: transparent;
   outline: none;
   font-size: 15px;
+  color: white;
 }
 
 .usuario-form {
@@ -72,14 +73,14 @@
   margin-top: 40px;
 }
 
-.login{
-    margin-left: 15px;
+.login {
+  margin-left: 15px;
 }
 
 .login,
 .cadast {
   padding: 10px 20px;
-  background-color: #A13854;
+  background-color: #a13854;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -88,8 +89,8 @@
 }
 
 #login-button {
-  background-color: #A13854;
-  color: #ffffff; 
+  background-color: #a13854;
+  color: #ffffff;
   border: none;
 }
 
@@ -99,11 +100,34 @@
 }
 
 #cadastro-button {
-  background-color: #A13854;
+  background-color: #a13854;
   color: #ffffff;
   border: none;
 }
 
 #cadastro-button:hover {
-  background-color: #a83856ad; 
+  background-color: #a83856ad;
+}
+
+@media (max-width: 900px) {
+  .login-container{
+    width: 50%;
+    height: 450px;
+  }
+  .login-name{
+    font-size: 30px;
+  }
+  .user, 
+  .password{
+    font-size: 15px;
+  }
+  #login-button {
+    width: 50px;
+    font-size: 12px;
+  }
+  #cadastro-button {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+  }
 }
